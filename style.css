@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
+:root {
+  --font: "Epilogue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  columns: 2;
+  padding-top: 1.5rem;
+  padding-left: 3rem;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.nav-left .logo {
+  margin-right: 30px;
+}
+
+.dropdown {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+.dropdown svg {
+  margin-left: 8px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.nav-right button {
+  padding: 10px 18px 10px 18px;
+  border-radius: 8px;
+  border-width: 2px;
+  background-color: white;
+  border-color: hsl(0, 0%, 41%);
+  font-size: 15px;
+}
+
+/* ----------------------------------- MAIN */
+
+main {
+  columns: 2;
+  column-gap: 0;
+}
+
+section {
+  width: 100%;
+  padding: 5rem 10rem;
+}
+
+section h1 {
+  font-size: 4rem;
+}
+
+aside {
+  width: 100%;
+}
+
+aside img {
+  width: 70%;
+}
